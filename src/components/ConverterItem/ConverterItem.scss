@@ -1,0 +1,36 @@
+.converter__item-field {
+	appearance: textfield;
+	background-color: #eee;
+	vertical-align: top;
+	outline: none;
+	padding: 10px;
+	display: inline-block;
+	width: 200px;
+	box-sizing: border-box;
+	border: 1px solid #00000015;
+	font-size: 16px;
+
+	&:focus{
+		outline: 2px solid #7d7dee;
+	}
+
+	&::-webkit-outer-spin-button{
+		display: none;
+	}
+
+	&::-webkit-inner-spin-button{
+		display: none;
+	}
+}
+
+.converter__item{
+	margin-bottom: 10px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.converter__item-type{
+	font-weight: 600;
+	user-select: none;
+}
